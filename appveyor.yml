@@ -1,6 +1,8 @@
 version: 2.1.1.{build}
 shallow_clone: true
 
+before_build:
+  - nuget restore
 
 environment:
   # settings
